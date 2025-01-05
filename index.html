@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taeyang's Homepage</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.8rem;
+            text-transform: uppercase;
+            color: #00d4ff;
+        }
+
+        nav {
+            display: flex;
+            gap: 1rem;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border: 2px solid transparent;
+            transition: all 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            border-color: #00d4ff;
+            color: #00d4ff;
+        }
+
+        .hero {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: url('sight-1478058_1920.png') no-repeat center center/cover;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .hero img {
+            max-width: 150px;
+            height: auto;
+            margin-bottom: 1rem;
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin: 1rem 0 2rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        .hero button {
+            padding: 1rem 2rem;
+            background: #00d4ff;
+            color: #000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.2rem;
+            transition: background 0.3s ease-in-out;
+        }
+
+        .hero button:hover {
+            background: #009ec3;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: rgba(0, 0, 0, 0.8);
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Taeyang's Homepage</h1>
+        <nav>
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <img src="Taeyangs Logo.jpg" alt="Taeyang's Futuristic Logo">
+        <h2>Welcome to Taeyang's World</h2>
+        <p>Explore groundbreaking games and wonderful ideas.</p>
+        <button onclick="location.href='https://sites.google.com/view/taeyangsgames/home';">Learn More</button>
+    </div>
+
+    <section id="features" style="padding: 2rem; text-align: center;">
+        <h2>Features</h2>
+        <p>My games have a lot of features like crawling and jumping. We have everything you can ever imagine.</p>
+        <p>No games are too hard to make. As long as you have a laptop, you can make any game within 24 hours.</p>
+        <p>Taeyang's code is just wonderful!</p>
+    </section>
+
+    <section id="about" style="padding: 2rem; text-align: center;">
+        <h2>About Taeyang</h2>
+        <p>Taeyang is a 10-year-old student in South Korea.</p>
+        <p>He loves coding and typing.</p>
+        <p>He is great at everything!</p>
+    </section>
+
+    <section id="contact" style="padding: 2rem; text-align: center;">
+        <h2>Contact Taeyang</h2>
+        <p>Email: Taeyang.lasher@Gmail.com</p>
+        <p>Phone: 010-9897-2546</p>
+        <p></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Taeyang's Homepage. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
